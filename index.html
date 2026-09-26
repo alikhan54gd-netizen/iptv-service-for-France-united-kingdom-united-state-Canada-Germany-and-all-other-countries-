@@ -1,74 +1,929 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QWV3PERVJ3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  gtag('config', 'G-QWV3PERVJ3');
-</script>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>IPTV.UK | Premium Entertainment</title>
-<meta name="description" content="Explore IPTV.UK plans, live television, movies and sports across compatible devices.">
-<meta name="theme-color" content="#050505">
+
+<meta name="description" content="IPTV.UK premium authorized entertainment services for compatible devices. Flexible plans, multi-device support and customer assistance.">
+
 <style>
-:root{--bg:#030303;--card:#101010;--white:#fff;--muted:#777;--purple:#8b5cf6;--blue:#00c8ff;--pink:#ff2d95;--green:#00e676;--border:rgba(255,255,255,.1);--radius:22px}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{font-family:Arial,Helvetica,sans-serif;background:radial-gradient(circle at 10% 10%,rgba(139,92,246,.16),transparent 28%),radial-gradient(circle at 90% 20%,rgba(0,200,255,.12),transparent 28%),var(--bg);color:var(--white);overflow-x:hidden}
-a{text-decoration:none;color:inherit}button{font-family:inherit}.container{width:min(1160px,92%);margin:auto}
-.topbar{text-align:center;padding:10px;font-size:12px;color:#aaa;background:#100b1d;border-bottom:1px solid var(--border)}.topbar b{color:#fff}
-.nav{position:sticky;top:0;z-index:1000;background:rgba(3,3,3,.85);backdrop-filter:blur(18px);border-bottom:1px solid var(--border)}.nav-inner{height:74px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-size:25px;font-weight:900;letter-spacing:-1px}.logo span{color:var(--blue)}.logo small{display:block;font-size:7px;letter-spacing:3px;color:#666}
-.links{display:flex;align-items:center;gap:25px}.links a{font-size:13px;color:#999}.links a:hover{color:#fff}.menu{display:none;background:#111;border:1px solid var(--border);color:#fff;border-radius:12px;font-size:20px;padding:9px 12px}
-.btn{border:0;cursor:pointer;padding:14px 21px;border-radius:14px;font-size:13px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:.3s}.primary{color:#fff;background:linear-gradient(135deg,var(--purple),var(--blue),var(--pink))}.secondary{background:#111;border:1px solid var(--border);color:#fff}
-.hero{padding:90px 0 80px;min-height:650px;display:flex;align-items:center}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}.badge{display:inline-flex;gap:8px;align-items:center;padding:9px 14px;border:1px solid rgba(139,92,246,.35);border-radius:50px;background:rgba(139,92,246,.08);color:#d8caff;font-size:10px;font-weight:bold;letter-spacing:1px;margin-bottom:22px}.badge i{width:7px;height:7px;border-radius:50%;background:var(--green)}
-.hero h1{font-size:clamp(45px,7vw,76px);line-height:.98;letter-spacing:-4px;margin-bottom:24px}.gradient{background:linear-gradient(90deg,#fff,var(--purple),var(--blue),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{max-width:620px;color:#999;font-size:16px;line-height:1.8}.hero-buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
-.visual{position:relative;min-height:420px;display:flex;justify-content:center;align-items:center}.tv{width:100%;max-width:440px;aspect-ratio:16/11;padding:12px;border-radius:30px;background:linear-gradient(135deg,rgba(139,92,246,.45),rgba(0,200,255,.15),rgba(255,45,149,.35));transform:rotate(2deg)}.tv-inner{height:100%;border-radius:22px;background:#080808;padding:18px;overflow:hidden}.tv-head{display:flex;justify-content:space-between;font-size:9px;color:#777;margin-bottom:15px}.tv-title{font-size:22px;font-weight:900;margin-bottom:14px}.tv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.tv-item{height:75px;border-radius:12px;padding:8px;display:flex;align-items:end;font-size:8px;font-weight:bold;background:linear-gradient(135deg,#27134b,#071e31)}.float{position:absolute;background:rgba(15,15,15,.9);border:1px solid var(--border);padding:14px 17px;border-radius:17px}.float strong{display:block;font-size:19px}.float span{font-size:10px;color:#777}.float.one{left:0;bottom:35px}.float.two{right:0;top:35px}
-.trust{padding:15px 0 50px}.trust-grid,.stats,.features,.pricing,.compare,.content-grid,.credits,.steps{display:grid;gap:17px}.trust-grid{grid-template-columns:repeat(4,1fr);border:1px solid var(--border);border-radius:20px;overflow:hidden;background:rgba(255,255,255,.025)}.trust-item{padding:20px;text-align:center;border-right:1px solid var(--border)}.trust-item:last-child{border:0}.trust-item strong{display:block;font-size:20px}.trust-item span,.stat span{font-size:10px;color:#666}
-.section{padding:90px 0}.heading{text-align:center;max-width:720px;margin:0 auto 45px}.heading small{display:block;color:var(--blue);font-size:10px;font-weight:900;letter-spacing:3px;margin-bottom:12px}.heading h2{font-size:clamp(32px,5vw,50px);letter-spacing:-2px;margin-bottom:14px}.heading p{color:#777;line-height:1.7;font-size:14px}
-.features,.content-grid{grid-template-columns:repeat(3,1fr)}.feature{padding:28px;min-height:220px;border-radius:var(--radius);border:1px solid var(--border);background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.012))}.icon{width:52px;height:52px;border-radius:15px;display:flex;align-items:center;justify-content:center;font-size:23px;background:rgba(139,92,246,.18);margin-bottom:18px}.feature h3{font-size:18px;margin-bottom:10px}.feature p{font-size:13px;color:#777;line-height:1.65}
-.stats{grid-template-columns:repeat(4,1fr)}.stat{padding:27px 15px;text-align:center;background:#0c0c0c;border:1px solid var(--border);border-radius:19px}.stat strong{display:block;font-size:32px;color:var(--blue)}
-.pricing,.compare{grid-template-columns:repeat(2,1fr)}.plan,.compare-card,.credit,.step{position:relative;padding:28px;background:#0d0d0d;border:1px solid var(--border);border-radius:24px}.plan.premium{border-color:rgba(139,92,246,.4)}.popular{position:absolute;right:-35px;top:19px;transform:rotate(45deg);padding:7px 40px;font-size:8px;font-weight:900;background:linear-gradient(90deg,var(--purple),var(--pink))}.plan-label{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#777}.plan h3{font-size:31px;margin:8px 0}.plan-desc{font-size:12px;color:#777;line-height:1.6}.price-list{display:grid;gap:9px;margin-top:22px}.price-row{display:grid;grid-template-columns:1fr 90px 80px;align-items:center;gap:7px;padding:13px;border:1px solid rgba(255,255,255,.06);background:rgba(255,255,255,.03);border-radius:14px}.price-row span:first-child{font-size:12px;color:#aaa}.price{text-align:right;font-weight:900}.select{border:0;background:#1b1b1b;color:#fff;padding:9px 8px;border-radius:9px;font-size:9px;font-weight:900;cursor:pointer}
-.list{list-style:none;display:grid;gap:12px}.list li{font-size:12px;color:#999;line-height:1.5;display:flex;gap:9px}.list li:before{content:"✓";color:var(--green);font-weight:900}.compare-card h3{font-size:21px;margin-bottom:18px}
-.credits{grid-template-columns:repeat(3,1fr)}.credit{text-align:center}.credit strong{font-size:40px}.credit small{display:block;color:#666;font-size:10px}.credit b{display:block;margin:13px 0;font-size:19px}.credit p{font-size:10px;color:#666}
-.devices{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.device{padding:23px 10px;text-align:center;border:1px solid var(--border);border-radius:17px;background:#0c0c0c}.device div{font-size:27px;margin-bottom:10px}.device span{font-size:10px;color:#888}
-.steps{grid-template-columns:repeat(4,1fr)}.step-num{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;background:linear-gradient(135deg,var(--purple),var(--blue));margin-bottom:17px}.step h3{font-size:16px;margin-bottom:9px}.step p{font-size:12px;color:#777;line-height:1.6}
-.faq{max-width:850px;margin:auto}.faq-item{margin-bottom:10px;border:1px solid var(--border);background:#0c0c0c;border-radius:16px;overflow:hidden}.question{width:100%;padding:19px;background:none;border:0;color:#fff;display:flex;justify-content:space-between;text-align:left;cursor:pointer;font-size:13px;font-weight:bold}.plus{font-size:18px;color:#777}.answer{max-height:0;overflow:hidden;transition:.3s;color:#777;font-size:12px;line-height:1.7}.answer div{padding:0 19px 18px}.faq-item.active .answer{max-height:150px}
-.cta{padding:30px 0 100px}.cta-box{padding:70px 25px;text-align:center;border-radius:31px;border:1px solid rgba(139,92,246,.3);background:#0b0b0b}.cta h2{font-size:clamp(32px,5vw,50px);letter-spacing:-2px;margin-bottom:14px}.cta p{max-width:600px;margin:0 auto 27px;color:#777;font-size:13px;line-height:1.7}
-footer{padding:50px 0 23px;border-top:1px solid var(--border);background:#050505}.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:35px}.footer-text{color:#666;font-size:12px;line-height:1.7;max-width:350px;margin-top:14px}.footer-col h4{font-size:12px;margin-bottom:15px}.footer-col a{display:block;color:#666;font-size:11px;margin-bottom:10px}.copy{border-top:1px solid var(--border);margin-top:40px;padding-top:18px;text-align:center;font-size:10px;color:#444}
-.toast{position:fixed;left:50%;bottom:24px;z-index:5000;transform:translate(-50%,120px);background:#151515;border:1px solid rgba(0,230,118,.35);padding:14px 20px;border-radius:14px;font-size:12px;transition:.35s}.toast.show{transform:translate(-50%,0)}.mobile-links{display:none}
-@media(max-width:950px){.hero-grid{grid-template-columns:1fr}.hero-content{text-align:center}.hero p{margin:auto}.hero-buttons{justify-content:center}.features,.content-grid{grid-template-columns:repeat(2,1fr)}.stats,.steps{grid-template-columns:repeat(2,1fr)}.devices{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:720px){.links{display:none}.menu{display:block}.mobile-links.show{display:block;padding:15px 0 20px;border-top:1px solid var(--border)}.mobile-links a{display:block;padding:12px 0;font-size:13px;color:#999}.mobile-links .btn{width:100%;margin-top:8px}.pricing,.compare,.credits,.content-grid,.footer-grid{grid-template-columns:1fr}}
-@media(max-width:520px){.container{width:90%}.hero{padding:60px 0}.hero h1{font-size:43px;letter-spacing:-2.5px}.hero-buttons{flex-direction:column}.hero-buttons .btn{width:100%}.visual{min-height:320px}.tv-item{height:55px;font-size:7px}.float{padding:10px 12px}.float strong{font-size:15px}.trust-grid{grid-template-columns:repeat(2,1fr)}.features,.stats,.steps{grid-template-columns:1fr}.devices{grid-template-columns:repeat(2,1fr)}.price-row{grid-template-columns:1fr 75px}.price-row .select{grid-column:2}.section{padding:70px 0}}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth
+}
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#050509;
+color:#fff;
+line-height:1.6
+}
+
+a{
+text-decoration:none;
+color:inherit
+}
+
+nav{
+position:sticky;
+top:0;
+z-index:999;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:15px 6%;
+background:rgba(5,5,9,.94);
+backdrop-filter:blur(15px);
+border-bottom:1px solid #252535
+}
+
+.logo{
+font-size:25px;
+font-weight:900;
+background:linear-gradient(90deg,#8b5cff,#00d9ff,#ff3cac);
+-webkit-background-clip:text;
+color:transparent
+}
+
+.navlinks{
+display:flex;
+align-items:center;
+gap:24px
+}
+
+.navlinks a{
+font-size:14px;
+color:#aaa
+}
+
+.navlinks a:hover{
+color:#fff
+}
+
+.trial{
+padding:10px 17px;
+border-radius:25px;
+background:linear-gradient(90deg,#7147ff,#00bfff);
+color:#fff!important;
+font-weight:bold
+}
+
+.hero{
+min-height:620px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:80px 20px;
+position:relative;
+overflow:hidden
+}
+
+.hero:before{
+content:"";
+position:absolute;
+width:450px;
+height:450px;
+background:#673cff;
+filter:blur(170px);
+opacity:.22;
+top:-150px;
+left:-150px
+}
+
+.hero:after{
+content:"";
+position:absolute;
+width:400px;
+height:400px;
+background:#00c8ff;
+filter:blur(180px);
+opacity:.16;
+right:-120px;
+bottom:-150px
+}
+
+.hero-content{
+position:relative;
+z-index:2;
+max-width:850px
+}
+
+.badge{
+display:inline-block;
+padding:8px 16px;
+border:1px solid #40386d;
+border-radius:30px;
+background:#11101d;
+color:#bbb0ff;
+font-size:13px;
+margin-bottom:22px
+}
+
+h1{
+font-size:clamp(42px,8vw,78px);
+line-height:1.05;
+margin-bottom:22px
+}
+
+.gradient{
+background:linear-gradient(90deg,#8b5cff,#00d9ff,#ff43b9);
+-webkit-background-clip:text;
+color:transparent
+}
+
+.hero p{
+color:#aaa;
+max-width:680px;
+margin:auto;
+font-size:17px
+}
+
+.buttons{
+margin-top:30px;
+display:flex;
+justify-content:center;
+gap:14px;
+flex-wrap:wrap
+}
+
+.btn{
+display:inline-block;
+padding:13px 24px;
+border-radius:30px;
+font-weight:bold;
+border:1px solid #343448;
+transition:.3s
+}
+
+.btn:hover{
+transform:translateY(-3px)
+}
+
+.primary{
+border:0;
+background:linear-gradient(90deg,#7147ff,#00bfff)
+}
+
+section{
+padding:75px 6%
+}
+
+.title{
+text-align:center;
+font-size:35px;
+margin-bottom:10px
+}
+
+.subtitle{
+text-align:center;
+color:#90909d;
+max-width:650px;
+margin:0 auto 40px
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px;
+max-width:1100px;
+margin:auto
+}
+
+.card{
+background:linear-gradient(145deg,#11111a,#09090e);
+border:1px solid #252535;
+padding:28px;
+border-radius:20px;
+transition:.3s
+}
+
+.card:hover{
+transform:translateY(-5px);
+border-color:#604cff
+}
+
+.icon{
+font-size:30px;
+margin-bottom:10px
+}
+
+.card h3{
+margin-bottom:7px
+}
+
+.card p{
+font-size:14px;
+color:#92929f
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:15px;
+max-width:1000px;
+margin:auto
+}
+
+.stat{
+text-align:center;
+padding:24px 10px;
+border:1px solid #252535;
+border-radius:18px;
+background:#0c0c12
+}
+
+.stat strong{
+display:block;
+font-size:27px;
+background:linear-gradient(90deg,#8b5cff,#00d9ff);
+-webkit-background-clip:text;
+color:transparent
+}
+
+.stat span{
+color:#888;
+font-size:13px
+}
+
+.plans{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:22px;
+max-width:1000px;
+margin:auto
+}
+
+.plan{
+background:#0d0d14;
+border:1px solid #29293b;
+border-radius:22px;
+padding:30px;
+position:relative
+}
+
+.plan.premium{
+border-color:#704cff;
+box-shadow:0 0 35px rgba(112,76,255,.12)
+}
+
+.popular{
+position:absolute;
+right:20px;
+top:20px;
+font-size:11px;
+background:#704cff;
+padding:5px 11px;
+border-radius:15px
+}
+
+.plan h3{
+font-size:24px
+}
+
+.plan-description{
+color:#888;
+font-size:13px;
+margin-top:5px
+}
+
+.price-list{
+margin-top:22px
+}
+
+.price-row{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:10px;
+padding:14px 0;
+border-bottom:1px solid #242432
+}
+
+.price-row:last-child{
+border-bottom:0
+}
+
+.duration{
+color:#aaa;
+font-size:14px
+}
+
+.amount{
+font-size:20px;
+font-weight:bold
+}
+
+.choose{
+padding:8px 14px;
+border-radius:20px;
+font-size:12px;
+font-weight:bold;
+background:linear-gradient(90deg,#7147ff,#00bfff);
+white-space:nowrap
+}
+
+.credits{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px;
+max-width:900px;
+margin:auto
+}
+
+.credit{
+background:#0d0d14;
+border:1px solid #29293b;
+border-radius:20px;
+padding:28px;
+text-align:center;
+transition:.3s
+}
+
+.credit:hover{
+transform:translateY(-5px);
+border-color:#00bfff
+}
+
+.credit h3{
+font-size:25px
+}
+
+.credit .credit-price{
+font-size:28px;
+font-weight:bold;
+margin:10px 0 20px
+}
+
+.credit small{
+color:#888
+}
+
+.credit-btn{
+display:block;
+padding:11px;
+border-radius:25px;
+background:linear-gradient(90deg,#7147ff,#00bfff);
+font-weight:bold
+}
+
+.devices{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:12px;
+max-width:900px;
+margin:auto
+}
+
+.device{
+border:1px solid #29293a;
+background:#0d0d14;
+padding:15px 22px;
+border-radius:15px;
+color:#bbb
+}
+
+.faq{
+max-width:850px;
+margin:auto
+}
+
+details{
+background:#0d0d14;
+border:1px solid #29293a;
+padding:18px 20px;
+border-radius:14px;
+margin:12px 0
+}
+
+summary{
+cursor:pointer;
+font-weight:bold
+}
+
+details p{
+color:#999;
+margin-top:12px
+}
+
+.cta{
+text-align:center;
+max-width:950px;
+margin:auto;
+padding:60px 25px;
+border-radius:25px;
+background:linear-gradient(145deg,#121020,#090b12);
+border:1px solid #302b50
+}
+
+.cta p{
+color:#999;
+margin:12px 0 25px
+}
+
+footer{
+border-top:1px solid #242432;
+padding:30px 6%;
+text-align:center;
+color:#777;
+font-size:13px
+}
+
+@media(max-width:800px){
+
+.navlinks a:not(.trial){
+display:none
+}
+
+.features{
+grid-template-columns:1fr
+}
+
+.plans{
+grid-template-columns:1fr
+}
+
+.credits{
+grid-template-columns:1fr
+}
+
+.stats{
+grid-template-columns:repeat(2,1fr)
+}
+
+section{
+padding:60px 5%
+}
+
+}
+
+@media(max-width:480px){
+
+h1{
+font-size:42px
+}
+
+.hero{
+min-height:570px
+}
+
+.price-row{
+flex-wrap:wrap
+}
+
+}
 </style>
 </head>
+
 <body>
-<div class="topbar">✦ Premium entertainment experience <b>• Free Trial Available</b></div>
-<nav class="nav"><div class="container nav-inner"><a href="#" class="logo">IPTV<span>.UK</span><small>PREMIUM STREAMING</small></a><div class="links"><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#devices">Devices</a><a href="#faq">FAQ</a><button class="btn primary" onclick="freeTrial()">🎁 Free Trial</button></div><button class="menu" onclick="menuToggle()">☰</button></div><div class="container mobile-links" id="mobileLinks"><a href="#features" onclick="menuClose()">Features</a><a href="#pricing" onclick="menuClose()">Pricing</a><a href="#devices" onclick="menuClose()">Devices</a><a href="#faq" onclick="menuClose()">FAQ</a><button class="btn primary" onclick="freeTrial()">🎁 Free Trial</button></div></nav>
 
-<header class="hero"><div class="container hero-grid"><div class="hero-content"><div class="badge"><i></i>PREMIUM STREAMING EXPERIENCE</div><h1>Entertainment <span class="gradient">Without Limits.</span></h1><p>Discover premium entertainment across compatible devices with flexible monthly, three-month and annual options.</p><div class="hero-buttons"><button class="btn primary" onclick="freeTrial()">🎁 Request a Free Trial</button><a href="#pricing" class="btn secondary">View Plans →</a></div></div><div class="visual"><div class="tv"><div class="tv-inner"><div class="tv-head"><span>IPTV.UK</span><span>● ONLINE</span></div><div class="tv-title">Featured Entertainment</div><div class="tv-grid"><div class="tv-item">LIVE TV</div><div class="tv-item">MOVIES</div><div class="tv-item">SPORTS</div><div class="tv-item">ENTERTAINMENT</div><div class="tv-item">NEWS</div><div class="tv-item">MORE</div></div></div></div><div class="float one"><strong>4K+</strong><span>Quality options</span></div><div class="float two"><strong>24/7</strong><span>Entertainment</span></div></div></div></header>
+<nav>
 
-<section class="trust"><div class="container trust-grid"><div class="trust-item"><strong>HD</strong><span>Quality options</span></div><div class="trust-item"><strong>4K</strong><span>Selected content</span></div><div class="trust-item"><strong>24/7</strong><span>Entertainment</span></div><div class="trust-item"><strong>Multi</strong><span>Device support</span></div></div></section>
+<div class="logo">IPTV.UK</div>
 
-<section class="section" id="features"><div class="container"><div class="heading"><small>WHY IPTV.UK</small><h2>Everything in one <span class="gradient">experience</span></h2><p>Flexible plans, diverse entertainment and compatible device support.</p></div><div class="features"><div class="feature"><div class="icon">📺</div><h3>Live Television</h3><p>Explore available live television categories in your package.</p></div><div class="feature"><div class="icon">🎬</div><h3>Movies</h3><p>Enjoy available movie and entertainment categories.</p></div><div class="feature"><div class="icon">⚽</div><h3>Sports</h3><p>Follow available sports programming and events.</p></div><div class="feature"><div class="icon">⚡</div><h3>Flexible Plans</h3><p>Choose monthly, three-month or annual options.</p></div><div class="feature"><div class="icon">📱</div><h3>Multi-Device Support</h3><p>Designed for supported TVs, streaming devices and mobile devices.</p></div><div class="feature"><div class="icon">🛠️</div><h3>Customer Support</h3><p>Contact us for setup assistance and service information.</p></div></div></div></section>
+<div class="navlinks">
 
-<section class="section"><div class="container"><div class="stats"><div class="stat"><strong>HD</strong><span>Quality options</span></div><div class="stat"><strong>4K</strong><span>Selected content</span></div><div class="stat"><strong>24/7</strong><span>Entertainment</span></div><div class="stat"><strong>2</strong><span>Plan levels</span></div></div></div></section>
+<a href="#features">Features</a>
+<a href="#plans">Plans</a>
+<a href="#credits">Credits</a>
+<a href="#faq">FAQ</a>
 
-<section class="section" id="pricing"><div class="container"><div class="heading"><small>SIMPLE PRICING</small><h2>Choose your <span class="gradient">plan</span></h2><p>Select a plan and duration to copy enquiry details before WhatsApp opens.</p></div><div class="pricing"><article class="plan"><div class="plan-label">Essential</div><h3>Basic</h3><p class="plan-desc">A flexible entry-level entertainment package.</p><div class="price-list"><div class="price-row"><span>Monthly</span><span class="price">£10</span><button class="select" onclick="selectPlan('Basic','Monthly','£10')">SELECT</button></div><div class="price-row"><span>3 Months</span><span class="price">£25</span><button class="select" onclick="selectPlan('Basic','3 Months','£25')">SELECT</button></div><div class="price-row"><span>Annual</span><span class="price">£49.99</span><button class="select" onclick="selectPlan('Basic','Annual','£49.99')">SELECT</button></div></div><ul class="list" style="margin-top:22px"><li>Flexible durations</li><li>Live TV, movies and sports where available</li><li>Compatible device support</li></ul></article><article class="plan premium"><div class="popular">POPULAR</div><div class="plan-label">Enhanced</div><h3>Premium</h3><p class="plan-desc">An enhanced package for a broader entertainment experience.</p><div class="price-list"><div class="price-row"><span>Monthly</span><span class="price">£14</span><button class="select" onclick="selectPlan('Premium','Monthly','£14')">SELECT</button></div><div class="price-row"><span>3 Months</span><span class="price">£35</span><button class="select" onclick="selectPlan('Premium','3 Months','£35')">SELECT</button></div><div class="price-row"><span>Annual</span><span class="price">£69.99</span><button class="select" onclick="selectPlan('Premium','Annual','£69.99')">SELECT</button></div></div><ul class="list" style="margin-top:22px"><li>Enhanced entertainment package</li><li>Live TV, movies and sports where available</li><li>Compatible device support</li></ul></article></div></div></section>
+<a class="trial"
+href="https://wa.me/447748079374?text=Hello%20IPTV.UK%2C%20I%20would%20like%20to%20request%20a%20free%20trial."
+target="_blank">
+Free Trial
+</a>
 
-<section class="section"><div class="container"><div class="heading"><small>PLAN COMPARISON</small><h2>Basic vs <span class="gradient">Premium</span></h2></div><div class="compare"><div class="compare-card"><h3>Basic</h3><ul class="list"><li>£10 monthly</li><li>£25 for three months</li><li>£49.99 annually</li><li>Live TV, movies and sports where available</li><li>Compatible device support</li></ul></div><div class="compare-card"><h3>Premium</h3><ul class="list"><li>£14 monthly</li><li>£35 for three months</li><li>£69.99 annually</li><li>Enhanced entertainment package</li><li>Live TV, movies and sports where available</li><li>Compatible device support</li></ul></div></div></div></section>
+</div>
+</nav>
 
-<section class="section"><div class="container"><div class="heading"><small>CONTENT</small><h2>Entertainment <span class="gradient">categories</span></h2><p>Catalogue availability may change.</p></div><div class="content-grid"><div class="feature"><div class="icon">📡</div><h3>Live Channels</h3><p>Availability depends on the current package.</p></div><div class="feature"><div class="icon">🎥</div><h3>Movie Library</h3><p>Selection may change over time.</p></div><div class="feature"><div class="icon">🏆</div><h3>Sports Content</h3><p>Programming depends on package and rights.</p></div></div></div></section>
 
-<section class="section"><div class="container"><div class="heading"><small>CREDIT OPTIONS</small><h2>Choose your <span class="gradient">credits</span></h2></div><div class="credits"><div class="credit"><strong>50</strong><small>CREDITS</small><b>£2 per credit</b><p>Contact us for details</p></div><div class="credit"><strong>100</strong><small>CREDITS</small><b>£1.50 per credit</b><p>Contact us for details</p></div><div class="credit"><strong>200</strong><small>CREDITS</small><b>£1.50 per credit</b><p>Contact us for details</p></div></div></div></section>
+<section class="hero">
 
-<section class="section" id="devices"><div class="container"><div class="heading"><small>COMPATIBILITY</small><h2>Supported <span class="gradient">devices</span></h2></div><div class="devices"><div class="device"><div>📺</div><span>Smart TV</span></div><div class="device"><div>🔥</div><span>Fire TV</span></div><div class="device"><div>📱</div><span>Android</span></div><div class="device"><div>🍎</div><span>iPhone / iPad</span></div><div class="device"><div>💻</div><span>Computer</span></div></div></div></section>
+<div class="hero-content">
 
-<section class="section"><div class="container"><div class="heading"><small>HOW IT WORKS</small><h2>Get started in <span class="gradient">four steps</span></h2></div><div class="steps"><div class="step"><div class="step-num">1</div><h3>Choose a plan</h3><p>Select Basic or Premium.</p></div><div class="step"><div class="step-num">2</div><h3>Select an option</h3><p>Choose your duration.</p></div><div class="step"><div class="step-num">3</div><h3>WhatsApp opens</h3><p>Your enquiry is prepared automatically.</p></div><div class="step"><div class="step-num">4</div><h3>Contact support</h3><p>Ask about availability and setup.</p></div></div></div></section>
+<div class="badge">✨ Premium Entertainment Experience</div>
 
-<section class="section" id="faq"><div class="container"><div class="heading"><small>FAQ</small><h2>Frequently asked <span class="gradient">questions</span></h2></div><div class="faq"><div class="faq-item"><button class="question" onclick="faq(this)"><span>How do I request a free trial?</span><span class="plus">+</span></button><div class="answer"><div>Select a Free Trial button to copy an enquiry and open WhatsApp.</div></div></div><div class="faq-item"><button class="question" onclick="faq(this)"><span>How do I select a plan?</span><span class="plus">+</span></button><div class="answer"><div>Go to Pricing and select your plan and duration.</div
+<h1>
+Entertainment<br>
+<span class="gradient">Without Limits</span>
+</h1>
+
+<p>
+Explore authorized entertainment services for compatible devices,
+with flexible plans, multi-device support and customer assistance.
+</p>
+
+<div class="buttons">
+
+<a class="btn primary"
+href="https://wa.me/447748079374?text=Hello%20IPTV.UK%2C%20I%20would%20like%20to%20request%20a%20free%20trial."
+target="_blank">
+🚀 Request Free Trial
+</a>
+
+<a class="btn" href="#plans">
+View Plans
+</a>
+
+</div>
+
+</div>
+</section>
+
+
+<section id="features">
+
+<h2 class="title">Everything In One Place</h2>
+
+<p class="subtitle">
+A modern entertainment experience designed for compatible devices.
+</p>
+
+<div class="features">
+
+<div class="card">
+<div class="icon">📺</div>
+<h3>Live Entertainment</h3>
+<p>Enjoy authorized live entertainment available through your selected service.</p>
+</div>
+
+<div class="card">
+<div class="icon">🎬</div>
+<h3>Movies & Series</h3>
+<p>Access available movies and series through supported services.</p>
+</div>
+
+<div class="card">
+<div class="icon">⚽</div>
+<h3>Sports</h3>
+<p>Follow authorized sports programming and events available to you.</p>
+</div>
+
+<div class="card">
+<div class="icon">🔥</div>
+<h3>Fire TV</h3>
+<p>Designed for compatible Fire TV and streaming devices.</p>
+</div>
+
+<div class="card">
+<div class="icon">📱</div>
+<h3>Multi Device</h3>
+<p>Use compatible Smart TVs, Android devices, tablets and TV boxes.</p>
+</div>
+
+<div class="card">
+<div class="icon">⚡</div>
+<h3>Customer Support</h3>
+<p>Get assistance with compatible-device setup and service information.</p>
+</div>
+
+</div>
+</section>
+
+
+<section>
+
+<div class="stats">
+
+<div class="stat">
+<strong>HD</strong>
+<span>Quality</span>
+</div>
+
+<div class="stat">
+<strong>4K</strong>
+<span>Supported</span>
+</div>
+
+<div class="stat">
+<strong>24/7</strong>
+<span>Support</span>
+</div>
+
+<div class="stat">
+<strong>Multi</strong>
+<span>Device</span>
+</div>
+
+</div>
+</section>
+
+
+<!-- PLANS -->
+
+<section id="plans">
+
+<h2 class="title">Choose Your Plan</h2>
+
+<p class="subtitle">
+Select a duration that works for your entertainment requirements.
+</p>
+
+
+<div class="plans">
+
+
+<!-- BASIC -->
+
+<div class="plan">
+
+<h3>Basic</h3>
+
+<p class="plan-description">
+Essential entertainment package
+</p>
+
+<div class="price-list">
+
+<div class="price-row">
+
+<div>
+<div class="duration">1 Month</div>
+<div class="amount">£10</div>
+</div>
+
+<a class="choose"
+href="https://wa.me/447748079374?text=Hello%20IPTV.UK%2C%20I%20am%20interested%20in%20the%20Basic%201%20Month%20plan%20for%20%C2%A310."
+target="_blank">
+Choose
+</a>
+
+</div>
+
+
+<div class="price-row">
+
+<div>
+<div class="duration">3 Months</div>
+<div class="amount">£25</div>
+</div>
+
+<a class="choose"
+href="https://wa.me/447748079374?text=Hello%20IPTV.UK%2C%20I%20am%20interested%20in%20the%20Basic%203%20Month%20plan%20for%20%C2%A325."
+target="_blank">
+Choose
+</a>
+
+</div>
+
+
+<div class="price-row">
+
+<div>
+<div class="duration">1 Year</div>
+<div class="amount">£49.99</div>
+</div>
+
+<a class="choose"
+href="https://wa.me/447748079374?text=Hello%20IPTV.UK%2C%20I%20am%20interested%20in%20the%20Basic%201%20Year%20plan%20for%20%C2%A349.99."
+target="_blank">
+Choose
+</a>
+
+</div>
+
+</div>
+</div>
+
+
+<!-- PREMIUM -->
+
+<div class="plan premium">
+
+<div class="popular">POPULAR</div>
+
+<h3>Premium</h3>
+
+<p class="plan-description">
+Enhanced entertainment package
+</p>
+
+<div class="price-list">
+
+<div class="price-row">
+
+<div>
+<div class="duration">1 Month</div>
+<div class="amount">£14</div>
+</div>
+
+<a class="choose"
+href="https://wa.me/447748079374?text=Hello%20IPTV.UK%2C%20I%20am%20interested%20in%20the%20Premium%201%20Month%20plan%20for%20%C2%A314."
+target="_blank">
+Choose
+</a>
+
+</div>
+
+
+<div class="price-row">
+
+<div>
+<div class="duration">3 Months</div>
+<div class="amount">£35</div>
+</div>
+
+<a class="choose"
+href="https://wa.me/447748079374?text=Hello%20IPTV.UK%2C%20I%20am%20interested%20in%20the%20Premium%203%20Month%20plan%20for%20%C2%A335."
+target="_blank">
+Choose
+</a>
+
+</div>
+
+
+<div class="price-row">
+
+<div>
+<div class="duration">1 Year</div>
+<div class="amount">£69.99</div>
+</div>
+
+<a class="choose"
+href="https://wa.me/447748079374?text=Hello%20IPTV.UK%2C%20I%20am%20interested%20in%20the%20Premium%201%20Year%20plan%20for%20%C2%A369.99."
+target="_blank">
+Choose
+</a>
+
+</div>
+
+</div>
+</div>
+
+</div>
+</section>
+
+
+<!-- CREDITS -->
+
+<section id="credits">
+
+<h2 class="title">Credit Packages</h2>
+
+<p class="subtitle">
+Choose a credit package according to your requirements.
+</p>
+
+<div class="credits">
+
+
+<div class="credit">
+
+<h3>50 Credits</h3>
+
+<div class="credit-price">£100</div>
+
+<small>£2 per credit</small>
+
+<br><br>
+
+<a class="credit-btn"
+href="https://wa.me/447748079374?text=Hello%20IPTV.UK%2C%20I%20am%20interested%20in%20the%2050%20Credit%20package%20for%20%C2%A3100."
+target="_blank">
+Choose Package
+</a>
+
+</div>
+
+
+<div class="credit">
+
+<h3>100 Credits</h3>
+
+<div class="credit-price">£150</div>
+
+<small>£1.50 per credit</small>
+
+<br><br>
+
+<a class="credit-btn"
+href="https://wa.me/447748079374?text=Hello%20IPTV.UK%2C%20I%20am%20interested%20in%20the%20100%20Credit%20package%20for%20%C2%A3150."
+target="_blank">
+Choose Package
+</a>
+
+</div>
+
+
+<div class="credit">
+
+<h3>200 Credits</h3>
+
+<div class="credit-price">£300</div>
+
+<small>£1.50 per credit</small>
+
+<br><br>
+
+<a class="credit-btn"
+href="https://wa.me/447748079374?text=Hello%20IPTV.UK%2C%20I%20am%20interested%20in%20the%20200%20Credit%20package%20for%20%C2%A3300."
+target="_blank">
+Choose Package
+</a>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- DEVICES -->
+
+<section>
+
+<h2 class="title">Supported Devices</h2>
+
+<p class="subtitle">
+Use compatible services across supported devices.
+</p>
+
+<div class="devices">
+
+<div class="device">🔥 Fire TV</div>
+<div class="device">📺 Smart TV</div>
+<div class="device">📱 Android</div>
+<div class="device">🍎 iPhone / iPad</div>
+<div class="device">💻 Laptop</div>
+<div class="device">📦 TV Box</div>
+
+</div>
+
+</section>
+
+
+<!-- FAQ -->
+
+<section id="faq">
+
+<h2 class="title">Frequently Asked Questions</h2>
+
+<div class="faq">
+
+<details>
+<summary>How do I request a free trial?</summary>
+<p>
+Click the Free Trial button and contact support through WhatsApp.
+</p>
+</details>
+
+<details>
+<summary>Which devices are supported?</summary>
+<p>
+Compatibility depends on the selected service. Common devices include Smart TVs,
+Fire TV devices, Android devices, tablets and TV boxes.
+</p>
+</details>
+
+<details>
+<summary>Can I change my plan?</summary>
+<p>
+Contact support to discuss available plan options and durations.
+</p>
+</details>
+
+<details>
+<summary>Do you provide setup assistance?</summary>
+<p>
+Support is available for compatible-device setup and general service information.
+</p>
+</details>
+
+</div>
+</section>
+
+
+<!-- CTA -->
+
+<section>
+
+<div class="cta">
+
+<h2>Ready To Get Started?</h2>
+
+<p>
+Contact our support team for available authorized entertainment services.
+</p>
+
+<a class="btn primary"
+href="https://wa.me/447748079374?text=Hello%20IPTV.UK%2C%20I%20would%20like%20more%20information%20about%20your%20plans."
+target="_blank">
+💬 Contact Support
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+© 2026 IPTV.UK — All rights reserved.
+</footer>
+
+</body>
+  </html>
